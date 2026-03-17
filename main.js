@@ -83,5 +83,39 @@
 // 	console.log(numbers2[i])
 // }
 
-let city = ['Moscow', 'New York', 'Paris']
-console.log(city.includes('Paris'), city.indexOf('Paris'))
+// let city = ['Moscow', 'New York', 'Paris']
+// console.log(city.includes('Paris'), city.indexOf('Paris'))
+
+// let user2 = {
+// 	name: 'Dasha',
+// 	age: 19,
+// 	city: 'Moscow',
+// }
+// console.log(user2['name'], user2.age, user2.city)
+
+// let book = {
+// 	title: 'The Great Gatsby',
+// 	author: 'F. Scott Fitzgerald',
+// 	year: 1925,
+// }
+// book.year = 2026
+// console.log(book.title, book.author, book.year)
+
+let car = {
+	brand: 'Toyota',
+	year: 2020,
+	getInfo: function () {
+		console.log(`Brand: ${this.brand}, Year: ${this.year}`)
+	},
+}
+console.log(car.getInfo())
+
+let product = {
+	name: 'Laptop',
+	price: 1000,
+	model: 'XPS 15',
+	type: 'Electronics',
+}
+for (let key in product) {
+	console.log(`${key}: ${product[key]}`)
+}
