@@ -1,74 +1,87 @@
-// for (let i = 0; i < 5; i++) {
-// 	console.log(i)
-// }
-// let sum = 0
+// // for (let i = 0; i < 5; i++) {
+// // 	console.log(i)
+// // }
+// // let sum = 0
+// // for (let i = 0; i <= 10; i++) {
+// // 	if (i % 2 == 0) {
+// // 		console.log(i)
+// // 	}
+// // 	sum += i
+// // }
+// // console.log(sum)
+
+// // let count = 0
+// // while (count < 3) {
+// // 	console.log(count)
+// // 	count++
+// // }
+
+// // let number = 5
+// // while (number >= 0) {
+// // 	console.log(number)
+// // 	number--
+// // }
+
+// // let value = 0
+// // do {
+// // 	console.log(value)
+// // 	value++
+// // } while (value < 5)
+
 // for (let i = 0; i <= 10; i++) {
-// 	if (i % 2 == 0) {
+// 	if (i != 5 && i != 8) {
 // 		console.log(i)
+// 	} else if (i == 8) {
+// 		break
 // 	}
-// 	sum += i
-// }
-// console.log(sum)
-
-// let count = 0
-// while (count < 3) {
-// 	console.log(count)
-// 	count++
 // }
 
-// let number = 5
-// while (number >= 0) {
-// 	console.log(number)
-// 	number--
+// for (let i = 1; i <= 3; i++) {
+// 	for (let j = 1; j <= 3; j++) {
+// 		console.log(`i = ${i}, j = ${j}`)
+// 	}
+// }
+// let text = '*'
+// for (let i = 1; i < 5; i++) {
+// 	console.log(text)
+// 	text += '*'
 // }
 
-// let value = 0
-// do {
-// 	console.log(value)
-// 	value++
-// } while (value < 5)
+// function sum(a, b) {
+// 	return a + b
+// }
+// console.log(sum(3, 4))
 
-for (let i = 0; i <= 10; i++) {
-	if (i != 5 && i != 8) {
-		console.log(i)
-	} else if (i == 8) {
-		break
-	}
-}
+// function multiply(a, b) {
+// 	return a * b
+// }
+// console.log(multiply(3, 4))
 
-for (let i = 1; i <= 3; i++) {
-	for (let j = 1; j <= 3; j++) {
-		console.log(`i = ${i}, j = ${j}`)
-	}
-}
-let text = '*'
-for (let i = 1; i < 5; i++) {
-	console.log(text)
-	text += '*'
-}
+// function printInfo(name, age) {
+// 	console.log(`Name: ${name}, Age: ${age}`)
+// }
 
-function sum(a, b) {
-	return a + b
-}
-console.log(sum(3, 4))
+// printInfo('Dasha', 19)
 
-function multiply(a, b) {
-	return a * b
-}
-console.log(multiply(3, 4))
+// function calculateDiscount(price, discount = 10) {
+// 	return price - (price * discount) / 100
+// }
+// console.log(calculateDiscount(100, 20))
+// console.log(calculateDiscount(100))
 
-function printInfo(name, age) {
-	console.log(`Name: ${name}, Age: ${age}`)
-}
+// let colors = ['green', 'black', 'white']
+// colors[1] = 'red'
+// console.log(colors[0], colors[colors.length - 1], colors)
 
-printInfo('Dasha', 19)
+// let students = []
+// students.push('Alice', 'Bob', 'Charlie')
+// students.pop()
+// console.log(students)
 
-function calculateDiscount(price, discount = 10) {
-	return price - (price * discount) / 100
-}
-console.log(calculateDiscount(100, 20))
-console.log(calculateDiscount(100))
+// let numbers2 = [10, 20, 30]
+// for (let i = 0; i < numbers2.length; i++) {
+// 	console.log(numbers2[i])
+// }
 
-const add = function (a, b) {
-	return a + b
-}
+let city = ['Moscow', 'New York', 'Paris']
+console.log(city.includes('Paris'), city.indexOf('Paris'))
