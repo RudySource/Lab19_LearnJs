@@ -46,3 +46,29 @@ for (let i = 1; i < 5; i++) {
 	console.log(text)
 	text += '*'
 }
+
+function sum(a, b) {
+	return a + b
+}
+console.log(sum(3, 4))
+
+function multiply(a, b) {
+	return a * b
+}
+console.log(multiply(3, 4))
+
+function printInfo(name, age) {
+	console.log(`Name: ${name}, Age: ${age}`)
+}
+
+printInfo('Dasha', 19)
+
+function calculateDiscount(price, discount = 10) {
+	return price - (price * discount) / 100
+}
+console.log(calculateDiscount(100, 20))
+console.log(calculateDiscount(100))
+
+const add = function (a, b) {
+	return a + b
+}
